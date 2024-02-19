@@ -1,6 +1,6 @@
 <?php
 
-$npm = 28;
+$npm = 1;
 
 echo 'Aku adalah angka ' . '<b>' . $npm . '</b><br>' ;
 printf ('Jika aku dikali 5, maka aku sekarang menjadi' . '<b> %.0f' . '</b><br>', $npm *= 5); 
