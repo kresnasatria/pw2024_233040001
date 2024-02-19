@@ -1,6 +1,6 @@
 <?php
 $npm_last_two_digits = 1;
-$result = $npm_last_two_digits * 1;
+$result = $npm_last_two_digits * 5;
 echo "Aku adalah angka $npm_last_two_digits<br>";
 echo "Jika aku dikali 5, maka aku sekarang menjadi $result<br>";
 
