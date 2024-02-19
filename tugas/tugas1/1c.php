@@ -7,7 +7,7 @@
     <title>PW2024 | 233040001</title>
 
     <style>
-        .flex {
+        .kotak2 {
             display: flex;
         }
 
@@ -28,11 +28,11 @@
 <body>
     <div class="container">
         <div class="box box-1">1</div>
-        <div class="flex">
+        <div class="kotak2">
             <div class="box box-2">2</div>
             <div class="box box-2">2</div>
         </div>
-        <div class="flex">
+        <div class="kotak2">
             <div class="box box-3">3</div>
             <div class="box box-3">3</div>
             <div class="box box-3">3</div>
