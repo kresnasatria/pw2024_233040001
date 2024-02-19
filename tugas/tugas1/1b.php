@@ -1,11 +1,15 @@
 <?php
+$npm_last_two_digits = 1;
+$result = $npm_last_two_digits * 1;
+echo "Aku adalah angka $npm_last_two_digits<br>";
+echo "Jika aku dikali 5, maka aku sekarang menjadi $result<br>";
 
-$npm = 1;
+$result /= 2;
+echo "Jika aku dibagi 2, maka aku sekarang menjadi $result<br>";
 
-echo 'Aku adalah angka ' . '<b>' . $npm . '</b><br>' ;
-printf ('Jika aku dikali 5, maka aku sekarang menjadi' . '<b> %.0f' . '</b><br>', $npm *= 5); 
-printf ('Jika aku dibagi 2, maka aku sekarang menjadi' . '<b> %.1f' . '</b><br>', $npm /= 2 );
-printf ('Jika aku ditambah 75, maka aku sekarang menjadi' . '<b> %.1f' . '</b><br>', $npm += 75);
-printf ('Jika aku dikurang 20, maka aku sekarang menjadi' . '<b> %.1f' . '</b><br>', $npm -= 20);
+$result += 75;
+echo "Jika aku ditambah 75, maka aku sekarang menjadi $result<br>";
 
+$result -= 20;
+echo "Jika aku dikurang 20, maka aku sekarang menjadi $result<br>";
 ?>
