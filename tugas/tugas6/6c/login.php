@@ -54,7 +54,7 @@ if (isset($_POST["submit"])) {
 
         input {
             margin-top: 10px;
-            border: 2px solid black;
+            border: 2px solid darkorange;
             width: 220px;
             height: 25px;   
         }
@@ -67,7 +67,7 @@ if (isset($_POST["submit"])) {
             background-color: darkorange;
             border-radius: 10px;
             padding: 5px;
-            border: 2px solid black;
+            border: 2px solid white;
         }
 
         p {
